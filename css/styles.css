@@ -1,0 +1,74 @@
+body { margin: 0; }
+
+header {
+    background-color: #44566c;
+    line-height: 4em;
+}
+
+header nav a, header h1, section.finished-projects-section h2 {
+    text-align: center;
+    color: #ffffff;
+    margin: 0;
+}
+
+nav {
+    justify-content: center;
+    gap: 1.5em;
+}
+
+section.profil-section {
+    justify-content: space-evenly;
+    gap: 4em;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Vue projets */
+
+section.finished-projects-section {
+    background-color: #2b5be9;
+    height: 100vh;
+}
+
+section.finished-projects-section > h2 {
+    font-size: 2em;
+    margin: 0;
+    padding: 1em;
+}
+
+section.finished-project > h3 {
+    text-align: center;
+    font-size: 2em;
+    color: #21ff11;
+}
+
+section.finished-projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+
+}
+
+/* Ajout d'un projet */
+
+form.add-project {
+    align-items: center;
+    margin: 1em;
+    gap: 1em;
+}
+
+form.add-project input {
+    margin: 0.5em;
+}
+
+/* Utils */
+
+.flex-row {
+    display: flex;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
